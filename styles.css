@@ -1,0 +1,112 @@
+body {
+  background: #1d1f26;
+  font-family: 'Neo Sans Pro', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1, h5 {
+  text-align: center;
+  color: #f9ca24;
+  text-transform: uppercase;
+}
+
+.win {
+  color: #fff;
+  background-color: #27ae60;
+  transition: background-color 0.3s ease;
+}
+
+.loss {
+  color: #fff;
+  background-color: #c0392b;
+  transition: background-color 0.3s ease;
+}
+
+#word {
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 32pt;
+  color: #3498db;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#guesses {
+  text-align: center;
+  font-size: 18pt;
+  color: #f9ca24;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.guess {
+  padding: 10px 20px;
+  display: inline-block;
+  border: 2px solid #f9ca24;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #1d1f26;
+  color: #f9ca24;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.guess:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #guesses {
+    text-align: center;
+    font-size: 24pt;
+    color: #e67e22;
+    font-weight: bold;
+  }
+
+  .guess {
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #1d1f26;
+    color: #e67e22;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+}
+
+#guessBox {
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16pt;
+  width: 250px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f9ca24;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0
